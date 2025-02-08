@@ -1,0 +1,8 @@
+package com.polymorphsim.Fruit;
+
+public class Banana extends Fruit{
+    @Override
+    void eat(){
+        System.out.println(super.getName()+" Peeling and eating");
+    }
+}
